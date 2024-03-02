@@ -34,7 +34,7 @@
                          &kp LGUI  &kp DEL  &kp RET  &kp SPACE  &kp ESC  &kp RET  &kp SPACE  &kp TAB  &kp BSPC  &kp RALT
             >;
 
-            display-name = "Base Layer";
+            display-name = "Base";
         };
 
         function_layer {
@@ -51,7 +51,7 @@
                                               &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans           &trans           &trans
             >;
 
-            display-name = "Func Layer";
+            display-name = "Function";
         };
     };
 };
