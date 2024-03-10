@@ -24,7 +24,7 @@
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
             // |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
-            // | SHIFT |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | LAYER 1 | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
+            // | SHIFT |  Z  |  X  |  C   |  V   |  B   | L SHIFT | LAYER 1 |  | LAYER 1 | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
@@ -45,7 +45,7 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                                  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans
+&trans           &rgb_ug RGB_ON   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                                  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans
 &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans      &bt BT_SEL 3  &bt BT_SEL 4  &trans                                        &trans           &trans           &trans  &trans  &trans  &trans
 &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans           &trans           &trans  &trans  &trans  &trans
                                               &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans           &trans           &trans
